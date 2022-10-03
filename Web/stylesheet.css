@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+body{
+    height: 100%;
+    width:100%;
+    margin-top: 0;
+    margin-left: 0;
+    background-color: #c4c4c4;
+    position: absolute;
+}
+.title{
+    font-family: OSWALD;
+    font-size: 3rem;
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0;
+    margin-bottom: 0;
+    top: 1rem;
+}
+.deposer{
+    position: absolute;
+    top: 7rem;
+    left: 30%;
+    background-color: #d3c0b3;
+    width: 40%;
+    height: 5rem;
+}
+
+.titledepot{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.depot{
+    position: absolute;
+    left: 50%;
+    width: 10.5rem;
+    transform: translateX(-50%);
+    top: 3rem;
+}
+.titlevisu{
+    position: absolute;
+    font-family: OSWALD;
+    font-size: 2rem;
+    top: 13rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.c{
+    position: absolute;
+    top: 17rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 500px;
+    background-color: rgb(135, 206, 250);
+}
+.nbjour{
+    position: absolute;
+    left: 80%;
+    top: 27rem;
+    transform: translate(-50%,-50%);
+    font-family: OSWALD;
+    font-size: 2rem;
+    height: 4rem;
+    width: fit-content;
+}
+.nbjour2{
+    position: absolute;
+    left: 80%;
+    top: 23rem;
+    transform: translate(-50%,-50%);
+    font-family: OSWALD;
+    font-size: 2rem;
+    height: 4rem;
+    width: 25rem;
+}
+.nbjour3{
+    position: absolute;
+    left: 82%;
+    top: 19rem;
+    transform: translate(-50%,-50%);
+    font-family: OSWALD;
+    font-size: 2rem;
+    height: 4rem;
+    width: 25rem;
+}
+.chg{
+    position: absolute;
+    left: 16rem;
+    top: 0;
+}
+.chg2{
+    position: absolute;
+    left: 26rem;
+    top: 0;
+}
+.chg3{
+    position: absolute;
+    left: 21rem;
+    top: 0;
+}
+.commandes{
+    position: absolute;
+    top: 17rem;
+    left: 8rem;
+    height: 35rem;
+    width: 20%;
+    overflow-y: auto;
+}
+.titre{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #a17622;
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 3rem;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+}
+.inpt{
+    position: relative;
+    width: 100%;
+    height: 4rem;
+}
+.p{
+    position: absolute;
+    color: #a17622;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+    font-size: 1.5rem;
+    padding: 0.2rem 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.p2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mot{
+    position: absolute;
+    top: 50rem;
+    padding-bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.butret{
+    position: absolute;
+    top: 32rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    left: 85%;
+    transform: translateX(-3rem);
+}
+.butagr{
+    position: absolute;
+    top: 32rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    left: 83%;
+    transform: translateX(3rem);
+}
+.butret:hover, .butagr:hover, .butinclp:hover, .butinclm:hover, .butvitp:hover, .butvitm:hover{
+    cursor: pointer;
+}
+.img1{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 0.25rem;
+    left: 0.25rem;
+    transform: rotate(180deg);
+}
+.img2{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 0.25rem;
+    left: 0.25rem;
+}
+.attend{
+    position: absolute;
+    top: 17rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    font-family: OSWALD;
+    font-size: 2rem;
+    z-index: 30;
+    color:white;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.attend>p{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    left: 4rem;
+}
+#numpat{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(0,-50%);
+}
+.nomoption{
+    position: absolute;
+    top: 31.5rem;
+    left: 70%;
+    font-family: OSWALD;
+    font-size: 2rem;
+}
+.nomoption2{
+    position: absolute;
+    top: 36.5rem;
+    left: 70%;
+    font-family: OSWALD;
+    font-size: 2rem;
+}
+.nomoption3{
+    position: absolute;
+    top: 41.5rem;
+    left: 70%;
+    font-family: OSWALD;
+    font-size: 2rem;
+}
+.butinclm{
+    position: absolute;
+    top: 37rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    left: 85%;
+    transform: translateX(-3rem);
+}
+.butinclp{
+    position: absolute;
+    top: 37rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    left: 83%;
+    transform: translateX(3rem);
+}
+.butvitp{
+    position: absolute;
+    top: 42rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    left: 83%;
+    transform: translateX(3rem);
+}
+.butvitm{
+    position: absolute;
+    top: 42rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    left: 85%;
+    transform: translateX(-3rem);
+}
+.credit{
+    position: absolute;
+    left: 50%;
+    top: 52rem;
+    transform: translateX(-50%);
+    font-family: OSWALD;
+    font-size: 1rem;
+}
