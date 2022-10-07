@@ -17,8 +17,6 @@ projetCIR1_groupe12
     * vecteur.c
     * vecteur.h
 * Web 
-    * lib
-        * p5.js
     * fleche.png
     * fleche2.png
     * fond.jpg
