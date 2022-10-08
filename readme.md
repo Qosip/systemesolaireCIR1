@@ -23,12 +23,11 @@ projetCIR1_groupe12
     * index.html
     * script.js
     * stylesheet.css
-* planet.json
 * readme.md
 
 **Pour tester le projet :** 
 - 
-* Utilisez le fichier json présent dans l'archive ou créez le en compilant directement le code C (aucun argument n'est attendu)
+* Utilisez le fichier json créé en compilant directement le code C (aucun argument n'est attendu)
 * Ouvrez le fichier "index.html"
 * Cliquez sur le bouton "Browse" et cliquez sur votre fichier json fraichement créé ou bien celui de l'archive
 * Le fichier est chargé, il ne reste plus qu'à utiliser les commandes décrites sur la page pour visualiser les planètes et les différentes méthodes de calculs
