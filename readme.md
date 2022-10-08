@@ -4,7 +4,7 @@ Projet de fin d'annee CIR1 (groupe 12 - Francois DAVID)
 Taille de l'archive : 52,4mo
 
 ### Arbre de fichier dans le .zip :
-projetCIR1_groupe12
+systemesolaireCIR1
 * Code_C
     * calcul.c
     * calcul.h
